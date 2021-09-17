@@ -1,0 +1,4 @@
+alphabets={}
+for i in range(ord('a'),ord('z')+1):
+    alphabets[chr(i)]=i  # alphabet is the key and the value are the ASCII values of the corresponding alphabets
+print(alphabets)
