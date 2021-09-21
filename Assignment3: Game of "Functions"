@@ -1,0 +1,11 @@
+def sumofnum(list1):
+    if type(list1) == list:
+        for i in list1:
+            if type(i)==int or type(i)==float:
+                return sum(list1)
+            else:
+                print("Enter integer numbers")
+    else:
+        print("Enter numbers in 'LIST' format")
+
+sumofnum([1,2,3,4])
