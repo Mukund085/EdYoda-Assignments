@@ -1,0 +1,15 @@
+def upper_and_lower(string1):
+    count_upper=0
+    count_lower=0
+    for i in string1:
+        if i.isupper()== True:
+            count_upper+=1
+        elif i.islower():
+            count_lower+=1
+        else:
+            continue
+    print("No. of Upper case characters : {}".format(count_upper))
+    print("No. of lower case characters : {}".format(count_lower))
+    
+string1=input("Enter a string")
+upper_and_lower(string1)
